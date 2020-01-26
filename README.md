@@ -7,7 +7,7 @@ I recently had something stolen in London, and came across the database by the p
 GETTING THE DATA . 
 The data was relatively straight forward to obtain. It is saved in a database on the website data.police.uk website. Every month of every year is saved in a separate folder and each folder has a csv file that corresponds to the differen police departments. Due to the clean structure, I was able to write some lines of code to extract the differenct csvs and concatenate them into a dataframe.
 
-DATA CLEANING
+DATA CLEANING<br/>
 There was really not much I needed to clean as it's a very well mainted dataset. I did drop a few rows and columns that were redundant or had many null values and created a new column to group crime types into categories.
 
 EDA
