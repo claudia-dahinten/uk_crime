@@ -4,7 +4,7 @@ As part of the Immersive Data Science course at General Assembly students receiv
 
 I recently had something stolen in London, and came across the database by the police on crime data, so I decided to use that s my guinea pig.
 
-GETTING THE DATA \n
+GETTING THE DATA <\n>
 The data was relatively straight forward to obtain. It is saved in a database on the website data.police.uk website. Every month of every year is saved in a separate folder and each folder has a csv file that corresponds to the differen police departments. Due to the clean structure, I was able to write some lines of code to extract the differenct csvs and concatenate them into a dataframe.
 
 DATA CLEANING
