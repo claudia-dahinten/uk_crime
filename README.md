@@ -1,10 +1,10 @@
-# uk_crime
+# UK Crime Data 2016-2019
 
 As part of the Immersive Data Science course at General Assembly students receive a 3 month free Tableau trial. Since I enjoy visualisations and Tableau seems to appear ubiquitously on job adverts, I thought I'd spend some time creating a Dashboard.
 
 I recently had something stolen in London, and through this came across a crime database managed by the police. I decided to use that as my guinea pig.
 
-<h3/>GETTING THE DATA<h3/> <br/>
+#GETTING THE DATA <br/>
 The data was relatively straight forward to obtain. It is saved in a database on the data.police.uk website. Every month of every year is saved in a separate folder and each folder has a csv file that corresponds to the different police departments. Due to the clean structure, I was able to write some lines of code to extract each csv and concatenate them into a dataframe.
 
 DATA CLEANING<br/>
